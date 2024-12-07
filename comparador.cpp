@@ -11,12 +11,3 @@ public:
         return b;
     }
 };
-
-int main(){
-    compare l;
-    int x, y;
-    x = 10;
-    y = 20;
-    l.result(x, y);
-    std::cout<<l.result(x,y)<<endl;
-}
